@@ -20,10 +20,10 @@ My project, the Anki Flashcards Creator, is a Python script designed to automate
 10. Anki Import Ready: The final text file is formatted to be easily imported into the Anki flashcard application.
 --------------------------------------------------------------------------------------------------
 # My Key Takeaways & Lessons Learned
->> Developing this project offered valuable insights beyond just coding:
->> Project Isolation: I learned local dependencies are crucial for clean, conflict-free project environments.
->> Precise Package Management: Mastering pip was key, ensuring installations went into the activated Conda environment.
->> Virtual Environment Power: Conda environments provided essential isolation for specific project dependencies.
->> Consistent Setup: Configuring my IDE's Python interpreter and kernel correctly proved consistently vital.
->> API Cost Awareness: I realized OpenAI API calls are not free, monitoring usage is important.
->> Iterative Problem Solving: Solving one issue often led to another, teaching me systematic debugging.
+1.  Developing this project offered valuable insights beyond just coding:
+2.  Project Isolation: I learned local dependencies are crucial for clean, conflict-free project environments.
+3.  Precise Package Management: Mastering pip was key, ensuring installations went into the activated Conda environment.
+4.  Virtual Environment Power: Conda environments provided essential isolation for specific project dependencies.
+5.  Consistent Setup: Configuring my IDE's Python interpreter and kernel correctly proved consistently vital.
+6.  API Cost Awareness: I realized OpenAI API calls are not free, monitoring usage is important.
+7.  Iterative Problem Solving: Solving one issue often led to another, teaching me systematic debugging.
