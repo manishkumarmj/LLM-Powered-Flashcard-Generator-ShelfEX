@@ -11,11 +11,11 @@ My project, the Anki Flashcards Creator, is a Python script designed to automate
 1. initial Setup: Started by installing Conda and initializing PowerShell, which was crucial for environment management.
 2. Environment Creation: Created a dedicated anki_cards Conda environment to isolate project dependencies effectively.
 3. Package Installation: Installed core libraries like PyPDF2, openai, and tiktoken using pip within my activated Conda environment.
-4. VS Code Configuration: Critically, configured VS Code's Python interpreter and Jupyter kernel to correctly use my anki_cards environment.
+4. Anaconda Prompt Configuration: Critically, configured Anaconda Prompt Python interpreter and Jupyter kernel to correctly use my anki_cards environment.
 5.API Key Setup: Secured my OpenAI API key by setting it as an environment variable, then retrieving it in the script.
 6. PDF Reading: My script reads the target PDF using PyPDF2, extracting all available text content.
 7. Text Chunking: The extracted text is divided into smaller sections to fit within the OpenAI model's token limits.
-8. AI Flashcard Generation: Each text chunk is sent to OpenAI (e.g., GPT-3.5 Turbo) via the openai library's new API.
+8. AI Flashcard Generation: Each text chunk is sent to OpenAI (e.g., open Ai 4.1 ) via the openai library's new API.
 9. Output Saving: Generated question-answer pairs are then compiled and saved to a flashcards.txt file.
 10. Anki Import Ready: The final text file is formatted to be easily imported into the Anki flashcard application.
 --------------------------------------------------------------------------------------------------
@@ -27,3 +27,8 @@ My project, the Anki Flashcards Creator, is a Python script designed to automate
 5.  Consistent Setup: Configuring my IDE's Python interpreter and kernel correctly proved consistently vital.
 6.  API Cost Awareness: I realized OpenAI API calls are not free, monitoring usage is important.
 7.  Iterative Problem Solving: Solving one issue often led to another, teaching me systematic debugging.
+
+
+
+
+
