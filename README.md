@@ -7,7 +7,7 @@ not
 
 My project, the Anki Flashcards Creator, is a Python script designed to automate flashcard generation from PDFs. I used PyPDF2 (now part of pypdf) to extract text and openai to interact with AI models like GPT-4.1 ( git market place for free for few days )  for Q&A generation. The process involves os for path management and tiktoken for token handling. I built it within a conda virtual environment (anki_cards) to manage dependencies. The script outputs .txt files for Anki import. We overcame significant setup and library versioning challenges to make it functional.
 -------------------------------------------------------------------------------------------------
-# steup up thing 
+# Setup and Installation
 1. initial Setup: Started by installing Conda and initializing PowerShell, which was crucial for environment management.
 2. Environment Creation: Created a dedicated anki_cards Conda environment to isolate project dependencies effectively.
 3. Package Installation: Installed core libraries like PyPDF2, openai, and tiktoken using pip within my activated Conda environment.
